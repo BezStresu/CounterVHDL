@@ -1,0 +1,12 @@
+.\src\TutorVHDL.vhd
+.\src\Top.bde
+.\src\Prescaler.vhd
+.\src\Debouncer.vhd
+.\src\TestBench\tutorvhdl_TB.vhd
+.\src\TestBench\tutorvhdl_TB_synth.vhd
+.\src\TestBench\tutorvhdl_TB_tim.v
+.\synthesis\TutorVHDL.vhd
+.\synthesis\Top.vhd
+.\implement\TutorVHDL.v
+.\implement\glbl.v
+.\implement\Top.v

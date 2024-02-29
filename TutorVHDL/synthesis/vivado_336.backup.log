@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec 12 17:21:52 2023
+# Process ID: 336
+# Current directory: C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/synthesis
+# Command line: vivado.exe -mode gui -log vivado.log -journal transcript.log -source C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/synthesis/run_vivado.tcl
+# Log file: C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/synthesis/vivado.log
+# Journal file: C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/synthesis\transcript.log
+#-----------------------------------------------------------
+start_gui
+source C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/synthesis/run_vivado.tcl
+# create_project -force Top {C:\My_Designs\TutorVHDL_Wt1620\TutorVHDL\synthesis} -part 7a100tcsg324-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 780.484 ; gain = 163.301
+# add_files -norecurse {C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/src/TutorVHDL.vhd}
+# add_files -norecurse {C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/compile/Top.vhd}
+# add_files -norecurse {C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/src/Prescaler.vhd}
+# set_property top Top [current_fileset]
+# set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
+# synth_design -rtl
+Command: synth_design -rtl
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: Top
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1192.590 ; gain = 167.496
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Top' [C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/compile/Top.vhd:42]
+INFO: [Synth 8-3491] module 'TutorVHDL' declared at 'C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/src/TutorVHDL.vhd:19' bound to instance 'U2' of component 'TutorVHDL' [C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/compile/Top.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'TutorVHDL' [C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/src/TutorVHDL.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'TutorVHDL' (1#1) [C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/src/TutorVHDL.vhd:34]
+INFO: [Synth 8-3491] module 'Prescaler' declared at 'C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/src/Prescaler.vhd:20' bound to instance 'U3' of component 'Prescaler' [C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/compile/Top.vhd:91]
+INFO: [Synth 8-638] synthesizing module 'Prescaler' [C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/src/Prescaler.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'Prescaler' (2#1) [C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/src/Prescaler.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'Top' (3#1) [C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/compile/Top.vhd:42]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1254.137 ; gain = 229.043
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1254.137 ; gain = 229.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1254.137 ; gain = 229.043
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1339.758 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1392.723 ; gain = 367.629
+12 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 1392.723 ; gain = 612.238
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 12 17:22:55 2023...

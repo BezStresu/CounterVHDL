@@ -1,0 +1,5 @@
+MESSAGE "File: C:/Users/User/Desktop/AGH/5 sem/PSC/Lab/TutorVHDL_Wt1620/TutorVHDL/src/TestBench/tutorvhdl_TB.vhd" 
+MESSAGE "Compile Entity "tutorvhdl_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "tutorvhdl_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_tutorvhdl"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

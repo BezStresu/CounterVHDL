@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec 12 17:37:43 2023
+# Process ID: 1384
+# Current directory: C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/synthesis
+# Command line: vivado.exe -mode batch -log vivado.log -journal transcript.log -source C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/synthesis/run_vivado.tcl
+# Log file: C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/synthesis/vivado.log
+# Journal file: C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/synthesis\transcript.log
+#-----------------------------------------------------------
+source C:/My_Designs/TutorVHDL_Wt1620/TutorVHDL/synthesis/run_vivado.tcl

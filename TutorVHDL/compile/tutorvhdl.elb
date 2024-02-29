@@ -1,0 +1,545 @@
+(_unit EDIF 1.0.4.38 (TutorVHDL 0 7 (TutorVHDL 0 7))
+	(_version ve4)
+	(_time 1702398967487 1 1)
+	(_source(\./../synthesis/tutorvhdl.edn\))
+	(_parameters tan)
+	(_code b4b2e5e1b5e2e4a2e2b3a6ede3b0bcb0b0b0e7b1b0)
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_ent (_time 1702398967487))
+	(_object
+		(_type (_ext ~extieee.std_logic_1164.std_logic (1 std_logic)))
+		(_type (_int ~std_logic_vector{3~downto~0}~ 0 0 (_array -1((_dto i 3 i 0)))))
+		(_port (_int DATA 0 0 136 (_ent (_in))))
+		(_sig (_int DATA_IBUF 0 0 291 (_arch (_uni))))
+		(_sig (_int L_DATA 0 0 358 (_arch (_uni))))
+		(_sig (_int p_0_in 0 0 493 (_arch (_uni))))
+		(_port (_int Q 0 0 137 (_ent (_out))))
+		(_sig (_int Q_INT_reg 0 0 413 (_arch (_uni))))
+		(_sig (_int Q_OBUF 0 0 444 (_arch (_uni))))
+		(_type (_int ~std_logic_vector{0~to~0}~ 0 0 (_array -1((_to i 0 i 0)))))
+		(_sig (_int Q_TRI 1 0 464 (_arch (_uni))))
+		(_port (_int CE -1 0 128 (_ent (_in ))))
+		(_port (_int CLK -1 0 129 (_ent (_in ))))
+		(_port (_int CLR -1 0 130 (_ent (_in ))))
+		(_port (_int DIR -1 0 131 (_ent (_in ))))
+		(_port (_int LE -1 0 132 (_ent (_in ))))
+		(_port (_int LOAD -1 0 133 (_ent (_in ))))
+		(_port (_int OE -1 0 134 (_ent (_in ))))
+		(_port (_int SEL -1 0 135 (_ent (_in ))))
+		(_sig (_int CE_IBUF -1 0 228 (_arch (_uni))))
+		(_sig (_int CLK_IBUF -1 0 241 (_arch (_uni))))
+		(_sig (_int CLK_IBUF_BUFG -1 0 246 (_arch (_uni))))
+		(_sig (_int CLR_IBUF -1 0 259 (_arch (_uni))))
+		(_sig (_int DATA[0] -1 0 271 (_arch (_uni))))
+		(_sig (_int DATA[1] -1 0 276 (_arch (_uni))))
+		(_sig (_int DATA[2] -1 0 281 (_arch (_uni))))
+		(_sig (_int DATA[3] -1 0 286 (_arch (_uni))))
+		(_sig (_int DIR_IBUF -1 0 320 (_arch (_uni))))
+		(_sig (_int LE_IBUF -1 0 332 (_arch (_uni))))
+		(_sig (_int LE_IBUF_BUFG -1 0 337 (_arch (_uni))))
+		(_sig (_int LOAD_IBUF -1 0 350 (_arch (_uni))))
+		(_sig (_int OE_IBUF -1 0 383 (_arch (_uni))))
+		(_sig (_int Q[0] -1 0 388 (_arch (_uni))))
+		(_sig (_int Q[1] -1 0 393 (_arch (_uni))))
+		(_sig (_int Q[2] -1 0 398 (_arch (_uni))))
+		(_sig (_int Q[3] -1 0 403 (_arch (_uni))))
+		(_sig (_int Q_INT[3]_i_2_n_0 -1 0 408 (_arch (_uni))))
+		(_sig (_int SEL_IBUF -1 0 477 (_arch (_uni))))
+		(_sig (_int VCC_1 -1 0 485 (_arch (_uni))))
+	)
+	(_comp
+		(IBUF
+			(_object
+			(_port (_int I -1 0 7 (_ent (_in ))))
+			(_port (_int O -1 0 7 (_ent (_out ))))))
+		(BUFG
+			(_object
+			(_port (_int I -1 0 7 (_ent (_in ))))
+			(_port (_int O -1 0 7 (_ent (_out ))))))
+		(LDCE
+			(_object
+			(_port (_int CLR -1 0 7 (_ent (_in ))))
+			(_port (_int D -1 0 7 (_ent (_in ))))
+			(_port (_int G -1 0 7 (_ent (_in ))))
+			(_port (_int GE -1 0 7 (_ent (_in ))))
+			(_port (_int Q -1 0 7 (_ent (_out ))))))
+		(LUT3
+			(_object
+			(_port (_int I0 -1 0 7 (_ent (_in ))))
+			(_port (_int I1 -1 0 7 (_ent (_in ))))
+			(_port (_int I2 -1 0 7 (_ent (_in ))))
+			(_port (_int O -1 0 7 (_ent (_out ))))))
+		(LUT5
+			(_object
+			(_port (_int I0 -1 0 7 (_ent (_in ))))
+			(_port (_int I1 -1 0 7 (_ent (_in ))))
+			(_port (_int I2 -1 0 7 (_ent (_in ))))
+			(_port (_int I3 -1 0 7 (_ent (_in ))))
+			(_port (_int I4 -1 0 7 (_ent (_in ))))
+			(_port (_int O -1 0 7 (_ent (_out ))))))
+		(LUT6
+			(_object
+			(_port (_int I0 -1 0 7 (_ent (_in ))))
+			(_port (_int I1 -1 0 7 (_ent (_in ))))
+			(_port (_int I2 -1 0 7 (_ent (_in ))))
+			(_port (_int I3 -1 0 7 (_ent (_in ))))
+			(_port (_int I4 -1 0 7 (_ent (_in ))))
+			(_port (_int I5 -1 0 7 (_ent (_in ))))
+			(_port (_int O -1 0 7 (_ent (_out ))))))
+		(FDCE
+			(_object
+			(_port (_int C -1 0 7 (_ent (_in ))))
+			(_port (_int CE -1 0 7 (_ent (_in ))))
+			(_port (_int CLR -1 0 7 (_ent (_in ))))
+			(_port (_int D -1 0 7 (_ent (_in ))))
+			(_port (_int Q -1 0 7 (_ent (_out ))))))
+		(OBUFT
+			(_object
+			(_port (_int I -1 0 7 (_ent (_in ))))
+			(_port (_int O -1 0 7 (_ent (_out ))))
+			(_port (_int T -1 0 7 (_ent (_in ))))))
+		(LUT1
+			(_object
+			(_port (_int I0 -1 0 7 (_ent (_in ))))
+			(_port (_int O -1 0 7 (_ent (_out ))))))
+		(VCC
+			(_object
+			(_port (_int P -1 0 7 (_ent (_out )))))))
+	(_inst CE_IBUF_inst 0 140 (_comp IBUF)
+		(_port
+			 ((I) (CE))
+			 ((O) (CE_IBUF)))
+		(_use (_ent hdi_primitives IBUF)
+			(_port
+				((I) (I))
+				((O) (O)))))
+	(_inst CLK_IBUF_BUFG_inst 0 141 (_comp BUFG)
+		(_port
+			 ((I) (CLK_IBUF))
+			 ((O) (CLK_IBUF_BUFG)))
+		(_use (_ent hdi_primitives BUFG)
+			(_port
+				((I) (I))
+				((O) (O)))))
+	(_inst CLK_IBUF_inst 0 142 (_comp IBUF)
+		(_port
+			 ((I) (CLK))
+			 ((O) (CLK_IBUF)))
+		(_use (_ent hdi_primitives IBUF)
+			(_port
+				((I) (I))
+				((O) (O)))))
+	(_inst CLR_IBUF_inst 0 143 (_comp IBUF)
+		(_port
+			 ((I) (CLR))
+			 ((O) (CLR_IBUF)))
+		(_use (_ent hdi_primitives IBUF)
+			(_port
+				((I) (I))
+				((O) (O)))))
+	(_inst DATA_IBUF[0]_inst 0 144 (_comp IBUF)
+		(_port
+			 ((I) (DATA(0)))
+			 ((O) (DATA_IBUF(0))))
+		(_use (_ent hdi_primitives IBUF)
+			(_port
+				((I) (I))
+				((O) (O)))))
+	(_inst DATA_IBUF[1]_inst 0 145 (_comp IBUF)
+		(_port
+			 ((I) (DATA(1)))
+			 ((O) (DATA_IBUF(1))))
+		(_use (_ent hdi_primitives IBUF)
+			(_port
+				((I) (I))
+				((O) (O)))))
+	(_inst DATA_IBUF[2]_inst 0 146 (_comp IBUF)
+		(_port
+			 ((I) (DATA(2)))
+			 ((O) (DATA_IBUF(2))))
+		(_use (_ent hdi_primitives IBUF)
+			(_port
+				((I) (I))
+				((O) (O)))))
+	(_inst DATA_IBUF[3]_inst 0 147 (_comp IBUF)
+		(_port
+			 ((I) (DATA(3)))
+			 ((O) (DATA_IBUF(3))))
+		(_use (_ent hdi_primitives IBUF)
+			(_port
+				((I) (I))
+				((O) (O)))))
+	(_inst DIR_IBUF_inst 0 148 (_comp IBUF)
+		(_port
+			 ((I) (DIR))
+			 ((O) (DIR_IBUF)))
+		(_use (_ent hdi_primitives IBUF)
+			(_port
+				((I) (I))
+				((O) (O)))))
+	(_inst L_DATA_reg[0] 0 152 (_comp LDCE)
+		(_port
+			 ((CLR) (CLR_IBUF))
+			 ((D) (DATA_IBUF(0)))
+			 ((G) (LE_IBUF_BUFG))
+			 ((GE) (VCC_1))
+			 ((Q) (L_DATA(0))))
+		(_use (_ent hdi_primitives LDCE)
+			(_gen
+				((INIT) ((i 0))))
+			(_port
+				((CLR) (CLR))
+				((D) (D))
+				((G) (G))
+				((GE) (GE))
+				((Q) (Q)))))
+	(_inst L_DATA_reg[1] 0 156 (_comp LDCE)
+		(_port
+			 ((CLR) (CLR_IBUF))
+			 ((D) (DATA_IBUF(1)))
+			 ((G) (LE_IBUF_BUFG))
+			 ((GE) (VCC_1))
+			 ((Q) (L_DATA(1))))
+		(_use (_ent hdi_primitives LDCE)
+			(_gen
+				((INIT) ((i 0))))
+			(_port
+				((CLR) (CLR))
+				((D) (D))
+				((G) (G))
+				((GE) (GE))
+				((Q) (Q)))))
+	(_inst L_DATA_reg[2] 0 160 (_comp LDCE)
+		(_port
+			 ((CLR) (CLR_IBUF))
+			 ((D) (DATA_IBUF(2)))
+			 ((G) (LE_IBUF_BUFG))
+			 ((GE) (VCC_1))
+			 ((Q) (L_DATA(2))))
+		(_use (_ent hdi_primitives LDCE)
+			(_gen
+				((INIT) ((i 0))))
+			(_port
+				((CLR) (CLR))
+				((D) (D))
+				((G) (G))
+				((GE) (GE))
+				((Q) (Q)))))
+	(_inst L_DATA_reg[3] 0 164 (_comp LDCE)
+		(_port
+			 ((CLR) (CLR_IBUF))
+			 ((D) (DATA_IBUF(3)))
+			 ((G) (LE_IBUF_BUFG))
+			 ((GE) (VCC_1))
+			 ((Q) (L_DATA(3))))
+		(_use (_ent hdi_primitives LDCE)
+			(_gen
+				((INIT) ((i 0))))
+			(_port
+				((CLR) (CLR))
+				((D) (D))
+				((G) (G))
+				((GE) (GE))
+				((Q) (Q)))))
+	(_inst LE_IBUF_BUFG_inst 0 149 (_comp BUFG)
+		(_port
+			 ((I) (LE_IBUF))
+			 ((O) (LE_IBUF_BUFG)))
+		(_use (_ent hdi_primitives BUFG)
+			(_port
+				((I) (I))
+				((O) (O)))))
+	(_inst LE_IBUF_inst 0 150 (_comp IBUF)
+		(_port
+			 ((I) (LE))
+			 ((O) (LE_IBUF)))
+		(_use (_ent hdi_primitives IBUF)
+			(_port
+				((I) (I))
+				((O) (O)))))
+	(_inst LOAD_IBUF_inst 0 151 (_comp IBUF)
+		(_port
+			 ((I) (LOAD))
+			 ((O) (LOAD_IBUF)))
+		(_use (_ent hdi_primitives IBUF)
+			(_port
+				((I) (I))
+				((O) (O)))))
+	(_inst OE_IBUF_inst 0 168 (_comp IBUF)
+		(_port
+			 ((I) (OE))
+			 ((O) (OE_IBUF)))
+		(_use (_ent hdi_primitives IBUF)
+			(_port
+				((I) (I))
+				((O) (O)))))
+	(_inst Q_INT[0]_i_1 0 169 (_comp LUT3)
+		(_port
+			 ((I0) (DATA_IBUF(0)))
+			 ((I1) (LOAD_IBUF))
+			 ((I2) (Q_INT_reg(0)))
+			 ((O) (p_0_in(0))))
+		(_use (_ent hdi_primitives LUT3)
+			(_gen
+				((INIT) (_string \X"8b"\)))
+			(_port
+				((I0) (I0))
+				((I1) (I1))
+				((I2) (I2))
+				((O) (O)))))
+	(_inst Q_INT[1]_i_1 0 173 (_comp LUT5)
+		(_port
+			 ((I0) (DATA_IBUF(1)))
+			 ((I1) (LOAD_IBUF))
+			 ((I2) (Q_INT_reg(0)))
+			 ((I3) (DIR_IBUF))
+			 ((I4) (Q_INT_reg(1)))
+			 ((O) (p_0_in(1))))
+		(_use (_ent hdi_primitives LUT5)
+			(_gen
+				((INIT) (_string \X"8bb8b88b"\)))
+			(_port
+				((I0) (I0))
+				((I1) (I1))
+				((I2) (I2))
+				((I3) (I3))
+				((I4) (I4))
+				((O) (O)))))
+	(_inst Q_INT[2]_i_1 0 177 (_comp LUT6)
+		(_port
+			 ((I0) (DATA_IBUF(2)))
+			 ((I1) (LOAD_IBUF))
+			 ((I2) (Q_INT_reg(0)))
+			 ((I3) (DIR_IBUF))
+			 ((I4) (Q_INT_reg(2)))
+			 ((I5) (Q_INT_reg(1)))
+			 ((O) (p_0_in(2))))
+		(_use (_ent hdi_primitives LUT6)
+			(_gen
+				((INIT) (_string \X"8bbbb888bbb8888b"\)))
+			(_port
+				((I0) (I0))
+				((I1) (I1))
+				((I2) (I2))
+				((I3) (I3))
+				((I4) (I4))
+				((I5) (I5))
+				((O) (O)))))
+	(_inst Q_INT[3]_i_1 0 180 (_comp LUT6)
+		(_port
+			 ((I0) (DATA_IBUF(3)))
+			 ((I1) (LOAD_IBUF))
+			 ((I2) (Q_INT[3]_i_2_n_0))
+			 ((I3) (Q_INT_reg(1)))
+			 ((I4) (Q_INT_reg(3)))
+			 ((I5) (Q_INT_reg(2)))
+			 ((O) (p_0_in(3))))
+		(_use (_ent hdi_primitives LUT6)
+			(_gen
+				((INIT) (_string \X"8bbbb888bbb8888b"\)))
+			(_port
+				((I0) (I0))
+				((I1) (I1))
+				((I2) (I2))
+				((I3) (I3))
+				((I4) (I4))
+				((I5) (I5))
+				((O) (O)))))
+	(_inst Q_INT[3]_i_2 0 183 (_comp LUT3)
+		(_port
+			 ((I0) (Q_INT_reg(1)))
+			 ((I1) (DIR_IBUF))
+			 ((I2) (Q_INT_reg(0)))
+			 ((O) (Q_INT[3]_i_2_n_0)))
+		(_use (_ent hdi_primitives LUT3)
+			(_gen
+				((INIT) (_string \X"d4"\)))
+			(_port
+				((I0) (I0))
+				((I1) (I1))
+				((I2) (I2))
+				((O) (O)))))
+	(_inst Q_INT_reg[0] 0 187 (_comp FDCE)
+		(_port
+			 ((C) (CLK_IBUF_BUFG))
+			 ((CE) (CE_IBUF))
+			 ((CLR) (CLR_IBUF))
+			 ((D) (p_0_in(0)))
+			 ((Q) (Q_INT_reg(0))))
+		(_use (_ent hdi_primitives FDCE)
+			(_gen
+				((INIT) ((i 0))))
+			(_port
+				((C) (C))
+				((CE) (CE))
+				((CLR) (CLR))
+				((D) (D))
+				((Q) (Q)))))
+	(_inst Q_INT_reg[1] 0 190 (_comp FDCE)
+		(_port
+			 ((C) (CLK_IBUF_BUFG))
+			 ((CE) (CE_IBUF))
+			 ((CLR) (CLR_IBUF))
+			 ((D) (p_0_in(1)))
+			 ((Q) (Q_INT_reg(1))))
+		(_use (_ent hdi_primitives FDCE)
+			(_gen
+				((INIT) ((i 0))))
+			(_port
+				((C) (C))
+				((CE) (CE))
+				((CLR) (CLR))
+				((D) (D))
+				((Q) (Q)))))
+	(_inst Q_INT_reg[2] 0 193 (_comp FDCE)
+		(_port
+			 ((C) (CLK_IBUF_BUFG))
+			 ((CE) (CE_IBUF))
+			 ((CLR) (CLR_IBUF))
+			 ((D) (p_0_in(2)))
+			 ((Q) (Q_INT_reg(2))))
+		(_use (_ent hdi_primitives FDCE)
+			(_gen
+				((INIT) ((i 0))))
+			(_port
+				((C) (C))
+				((CE) (CE))
+				((CLR) (CLR))
+				((D) (D))
+				((Q) (Q)))))
+	(_inst Q_INT_reg[3] 0 196 (_comp FDCE)
+		(_port
+			 ((C) (CLK_IBUF_BUFG))
+			 ((CE) (CE_IBUF))
+			 ((CLR) (CLR_IBUF))
+			 ((D) (p_0_in(3)))
+			 ((Q) (Q_INT_reg(3))))
+		(_use (_ent hdi_primitives FDCE)
+			(_gen
+				((INIT) ((i 0))))
+			(_port
+				((C) (C))
+				((CE) (CE))
+				((CLR) (CLR))
+				((D) (D))
+				((Q) (Q)))))
+	(_inst Q_OBUFT[0]_inst 0 199 (_comp OBUFT)
+		(_port
+			 ((I) (Q_OBUF(0)))
+			 ((O) (Q(0)))
+			 ((T) (Q_TRI(0))))
+		(_use (_ent hdi_primitives OBUFT)
+			(_port
+				((I) (I))
+				((O) (O))
+				((T) (T)))))
+	(_inst Q_OBUFT[0]_inst_i_1 0 200 (_comp LUT3)
+		(_port
+			 ((I0) (L_DATA(0)))
+			 ((I1) (Q_INT_reg(0)))
+			 ((I2) (SEL_IBUF))
+			 ((O) (Q_OBUF(0))))
+		(_use (_ent hdi_primitives LUT3)
+			(_gen
+				((INIT) (_string \X"ac"\)))
+			(_port
+				((I0) (I0))
+				((I1) (I1))
+				((I2) (I2))
+				((O) (O)))))
+	(_inst Q_OBUFT[1]_inst 0 204 (_comp OBUFT)
+		(_port
+			 ((I) (Q_OBUF(1)))
+			 ((O) (Q(1)))
+			 ((T) (Q_TRI(0))))
+		(_use (_ent hdi_primitives OBUFT)
+			(_port
+				((I) (I))
+				((O) (O))
+				((T) (T)))))
+	(_inst Q_OBUFT[1]_inst_i_1 0 205 (_comp LUT3)
+		(_port
+			 ((I0) (L_DATA(1)))
+			 ((I1) (Q_INT_reg(1)))
+			 ((I2) (SEL_IBUF))
+			 ((O) (Q_OBUF(1))))
+		(_use (_ent hdi_primitives LUT3)
+			(_gen
+				((INIT) (_string \X"ac"\)))
+			(_port
+				((I0) (I0))
+				((I1) (I1))
+				((I2) (I2))
+				((O) (O)))))
+	(_inst Q_OBUFT[2]_inst 0 209 (_comp OBUFT)
+		(_port
+			 ((I) (Q_OBUF(2)))
+			 ((O) (Q(2)))
+			 ((T) (Q_TRI(0))))
+		(_use (_ent hdi_primitives OBUFT)
+			(_port
+				((I) (I))
+				((O) (O))
+				((T) (T)))))
+	(_inst Q_OBUFT[2]_inst_i_1 0 210 (_comp LUT3)
+		(_port
+			 ((I0) (L_DATA(2)))
+			 ((I1) (Q_INT_reg(2)))
+			 ((I2) (SEL_IBUF))
+			 ((O) (Q_OBUF(2))))
+		(_use (_ent hdi_primitives LUT3)
+			(_gen
+				((INIT) (_string \X"ac"\)))
+			(_port
+				((I0) (I0))
+				((I1) (I1))
+				((I2) (I2))
+				((O) (O)))))
+	(_inst Q_OBUFT[3]_inst 0 214 (_comp OBUFT)
+		(_port
+			 ((I) (Q_OBUF(3)))
+			 ((O) (Q(3)))
+			 ((T) (Q_TRI(0))))
+		(_use (_ent hdi_primitives OBUFT)
+			(_port
+				((I) (I))
+				((O) (O))
+				((T) (T)))))
+	(_inst Q_OBUFT[3]_inst_i_1 0 215 (_comp LUT3)
+		(_port
+			 ((I0) (L_DATA(3)))
+			 ((I1) (Q_INT_reg(3)))
+			 ((I2) (SEL_IBUF))
+			 ((O) (Q_OBUF(3))))
+		(_use (_ent hdi_primitives LUT3)
+			(_gen
+				((INIT) (_string \X"ac"\)))
+			(_port
+				((I0) (I0))
+				((I1) (I1))
+				((I2) (I2))
+				((O) (O)))))
+	(_inst Q_OBUFT[3]_inst_i_2 0 218 (_comp LUT1)
+		(_port
+			 ((I0) (OE_IBUF))
+			 ((O) (Q_TRI(0))))
+		(_use (_ent hdi_primitives LUT1)
+			(_gen
+				((INIT) (_string \"01"\)))
+			(_port
+				((I0) (I0))
+				((O) (O)))))
+	(_inst SEL_IBUF_inst 0 221 (_comp IBUF)
+		(_port
+			 ((I) (SEL))
+			 ((O) (SEL_IBUF)))
+		(_use (_ent hdi_primitives IBUF)
+			(_port
+				((I) (I))
+				((O) (O)))))
+	(_inst VCC 0 222 (_comp VCC)
+		(_port
+			 ((P) (VCC_1)))
+		(_use (_ent hdi_primitives VCC)
+			(_port
+				((P) (P))))))

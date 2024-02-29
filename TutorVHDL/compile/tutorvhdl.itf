@@ -1,0 +1,14 @@
+E TutorVHDL EDIF
+L IEEE;STD;
+U IEEE.STD_LOGIC_1164;
+P DATA _in std_logic_vector[3:0]
+P Q _out std_logic_vector[3:0]
+P CE _in std_logic
+P CLK _in std_logic
+P CLR _in std_logic
+P DIR _in std_logic
+P LE _in std_logic
+P LOAD _in std_logic
+P OE _in std_logic
+P SEL _in std_logic
+X TutorVHDL

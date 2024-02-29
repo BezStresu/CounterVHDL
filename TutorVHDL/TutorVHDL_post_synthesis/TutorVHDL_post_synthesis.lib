@@ -1,0 +1,27 @@
+timestamp=1702399097466
+
+[~A]
+ModifyID=60
+Version=74
+
+[~MFT]
+0=0|0TutorVHDL_post_synthesis.mgf|703|0
+
+[prescaler]
+A/structure=A/STRUCTURE *21|../synthesis/Top.vhd|25|
+
+[top]
+A/structure=A/STRUCTURE *21|../synthesis/Top.vhd|1315|
+
+[tutorvhdl]
+A/structure=A/STRUCTURE *21|../synthesis/Top.vhd|1089|
+
+[tutorvhdl_tb_synth]
+A/tb_architecture=A/TB_ARCHITECTURE *21|../src/TestBench/tutorvhdl_TB_synth.vhd|11|
+
+[~U]
+prescaler=Prescaler 11|0*0|
+top=Top 11|0*231|
+tutorvhdl=TutorVHDL 11|0*450|
+tutorvhdl_tb_synth=11|0*703|
+

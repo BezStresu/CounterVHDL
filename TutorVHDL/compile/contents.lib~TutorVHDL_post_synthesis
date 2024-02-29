@@ -1,0 +1,9 @@
+60
+~E 0 "" 0 Prescaler
+~A 0 "" 0 STRUCTURE
+~E 0 "" 0 Top
+~A 0 "" 0 STRUCTURE
+~E 0 "" 0 TutorVHDL
+~A 0 "" 0 STRUCTURE
+~E 0 "" 0 tutorvhdl_tb_synth
+~A 0 "" 0 TB_ARCHITECTURE

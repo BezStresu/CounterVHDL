@@ -1,0 +1,49 @@
+Active-HDL 11.1.261.7351 2023-12-05 16:27:02
+
+Elaboration top modules:
+VHDL Configuration            testbench_for_tutorvhdl
+
+
+-----------------------------------------------------------------------------------------------------------------------
+Entity             | Architecture    | Library                  | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------
+tutorvhdl_tb_synth | TB_ARCHITECTURE | tutorvhdl_post_synthesis |      | 11.1.261.7351 (Windows) | -dbg
+TutorVHDL          | STRUCTURE       | tutorvhdl_post_synthesis |      | 11.1.261.7351 (Windows) | -dbg
+ibuf               | ibuf_v          | unisim                   |      | 11.1.261.7351 (Windows) | -vendor Xilinx -93
+bufg               | bufg_v          | unisim                   |      | 11.1.261.7351 (Windows) | -vendor Xilinx -93
+ldce               | ldce_v          | unisim                   |      | 11.1.261.7351 (Windows) | -vendor Xilinx -93
+lut3               | lut3_v          | unisim                   |      | 11.1.261.7351 (Windows) | -vendor Xilinx -93
+lut5               | lut5_v          | unisim                   |      | 11.1.261.7351 (Windows) | -vendor Xilinx -93
+lut6               | lut6_v          | unisim                   |      | 11.1.261.7351 (Windows) | -vendor Xilinx -93
+fdce               | fdce_v          | unisim                   |      | 11.1.261.7351 (Windows) | -vendor Xilinx -93
+obuft              | obuft_v         | unisim                   |      | 11.1.261.7351 (Windows) | -vendor Xilinx -93
+lut1               | lut1_v          | unisim                   |      | 11.1.261.7351 (Windows) | -vendor Xilinx -93
+-----------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
+VHDL Configuration                   | Library                  | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------
+testbench_for_tutorvhdl              | tutorvhdl_post_synthesis |      |                         | <unavailable>
+-----------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
+VHDL Package                         | Library                  | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------
+standard                             | std                      |      |                         | <unavailable>
+TEXTIO                               | std                      |      |                         | <unavailable>
+std_logic_1164                       | ieee                     |      |                         | <unavailable>
+NUMERIC_STD                          | ieee                     |      |                         | <unavailable>
+VCOMPONENTS                          | unisim                   |      |                         | <unavailable>
+VITAL_Timing                         | ieee                     |      |                         | <unavailable>
+VITAL_Primitives                     | ieee                     |      |                         | <unavailable>
+VPKG                                 | unisim                   |      |                         | <unavailable>
+-----------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
+Library                              | Comment
+-----------------------------------------------------------------------------------------------------------------------
+ieee                                 | Standard IEEE packages library
+std                                  | Standard VHDL library
+tutorvhdl_post_synthesis             | None
+unisim                               | Xilinx Vivado 2019.1.3, UNISIM VHDL library
+-----------------------------------------------------------------------------------------------------------------------

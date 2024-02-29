@@ -1,0 +1,14 @@
+timestamp=1702399226699
+
+[~A]
+ModifyID=71
+Version=74
+
+[~MFT]
+0=0|0TutorVHDL_timing.mgf|0|0
+
+[tutorvhdl_tb_tim]
+A/tutorvhdl_tb_tim=*22|../src/TestBench/tutorvhdl_TB_tim.v|22|
+
+[~U]
+tutorvhdl_tb_tim=12|0*0||0x10

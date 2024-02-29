@@ -1,0 +1,35 @@
+E Prescaler EDIF
+L IEEE;STD;
+U IEEE.STD_LOGIC_1164;
+P AR _in std_logic_vector[0;0]
+P CE_IBUF _in std_logic
+P CLK _in std_logic
+P DIVIDER_reg[10]_0[0] _out std_logic
+X Prescaler
+E Top EDIF
+L IEEE;STD;
+U IEEE.STD_LOGIC_1164;
+P DATA _in std_logic_vector[3:0]
+P Q _out std_logic_vector[3:0]
+P CE _in std_logic
+P CLK _in std_logic
+P CLR _in std_logic
+P DIR _in std_logic
+P LE _in std_logic
+P LOAD _in std_logic
+P OE _in std_logic
+P SEL _in std_logic
+X Top
+E TutorVHDL EDIF
+L IEEE;STD;
+U IEEE.STD_LOGIC_1164;
+P AR _in std_logic_vector[0;0]
+P D _in std_logic_vector[3:0]
+P E _in std_logic_vector[0;0]
+P Q_OBUF _out std_logic_vector[3:0]
+P CLK _in std_logic
+P DIR_IBUF _in std_logic
+P LOAD_IBUF _in std_logic
+P Q_INT_reg[3]_0[0] _in std_logic
+P SEL_IBUF _in std_logic
+X TutorVHDL
